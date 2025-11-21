@@ -2,6 +2,16 @@ import streamlit as st
 import sys
 import os
 
+# --- CLOUD FIX START (Wichtig für Streamlit Cloud!) ---
+# ChromaDB braucht ein neueres SQLite als auf manchen Servern installiert ist.
+# Dieser Trick tauscht das System-SQLite gegen das installierte pysqlite3-binary aus.
+try:
+    __import__('pysqlite3')
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    pass # Lokal auf dem Mac passiert nichts, da ist alles ok.
+# --- CLOUD FIX ENDE ---
+
 # Damit wir Module aus dem Hauptverzeichnis importieren können
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -11,18 +21,52 @@ from app.rag.pipeline import RbacRagPipeline
 st.set_page_config(page_title="RAG RBAC Prototyp", layout="wide")
 
 # --- Initialisierung (Caching) ---
-# Wir laden die Pipeline nur einmal, nicht bei jedem Klick neu.
 @st.cache_resource
 def get_pipeline():
     return RbacRagPipeline()
 
-pipeline = get_pipeline()
+try:
+    pipeline = get_pipeline()
+except Exception as e:
+    st.error(f"Fehler beim Starten der Pipeline: {e}")
+    st.stop()
 
-# --- Session State (Gedächtnis der App) ---
+# --- Session State ---
 if "role" not in st.session_state:
     st.session_state["role"] = None
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
+
+# ==========================================
+# SEITENLEISTE (Admin & Download)
+# ==========================================
+with st.sidebar:
+    st.header("⚙️ Steuerung")
+    
+    if st.session_state["role"]:
+        st.info(f"Aktive Rolle: **{st.session_state['role']}**")
+        if st.button("Logout / Rolle wechseln"):
+            st.session_state["role"] = None
+            st.session_state["messages"] = []
+            st.rerun()
+    
+    st.markdown("---")
+    st.subheader("📊 Daten-Export")
+    
+    # --- DOWNLOAD BUTTON ---
+    log_file_path = "audit_log.jsonl"
+    if os.path.exists(log_file_path):
+        with open(log_file_path, "r", encoding="utf-8") as f:
+            file_content = f.read()
+        
+        st.download_button(
+            label="📥 Audit-Log herunterladen",
+            data=file_content,
+            file_name="audit_log.jsonl",
+            mime="application/json"
+        )
+    else:
+        st.caption("Noch keine Log-Daten vorhanden.")
 
 # ==========================================
 # SCREEN 1: ROLLENAUSWAHL
@@ -30,8 +74,7 @@ if "messages" not in st.session_state:
 if st.session_state["role"] is None:
     st.title("🔐 RAG Sicherheits-Prototyp")
     st.markdown("### Bitte wählen Sie Ihre Rolle für diese Sitzung")
-
-    # --- NEUER TEIL START ---
+    
     st.warning("🎯 Ihre Mission (Capture the Flag):")
     st.markdown("""
     Versuchen Sie, folgende **geheime Informationen** herauszufinden:
@@ -40,10 +83,7 @@ if st.session_state["role"] is None:
     
     *Wechseln Sie zwischen den Rollen, um zu sehen, wer diese Infos erhält.*
     """)
-    # --- NEUER TEIL ENDE ---
-    #st.info("Ziel des Tests: Versuchen Sie, Informationen über die 'Strategische Finanzplanung' zu erhalten.")
 
-    # Auswahlbox
     role_selection = st.selectbox(
         "Rolle wählen:",
         ["Mitarbeiter", "Vorgesetzter", "Geschaeftsfuehrung"]
@@ -52,51 +92,34 @@ if st.session_state["role"] is None:
     if st.button("Session starten"):
         st.session_state["role"] = role_selection
         st.success(f"Eingeloggt als {role_selection}")
-        st.rerun() # Seite neu laden, um zum Chat zu wechseln
+        st.rerun()
 
 # ==========================================
 # SCREEN 2: CHAT INTERFACE
 # ==========================================
 else:
-    # Seitenleiste mit Infos
-    with st.sidebar:
-        st.header(f"👤 Rolle: {st.session_state['role']}")
-        if st.button("Logout / Neustart"):
-            st.session_state["role"] = None
-            st.session_state["messages"] = []
-            st.rerun()
-        
-        st.markdown("---")
-        st.markdown("**Debug Info:**")
-        st.caption("Hier sehen wir später Log-Details.")
-
     st.title("💬 Unternehmens-Chat")
 
-    # 1. Chatverlauf anzeigen
+    # Chatverlauf anzeigen
     for msg in st.session_state["messages"]:
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"])
-            # Falls wir Debug-Infos zu geblockten Docs gespeichert haben:
             if "debug_info" in msg:
                 with st.expander("Details zur Verarbeitung"):
                     st.text(msg["debug_info"])
 
-    # 2. Eingabefeld für neue Fragen
+    # Eingabe
     if prompt := st.chat_input("Stellen Sie Ihre Frage..."):
-        # Frage sofort anzeigen
         with st.chat_message("user"):
             st.markdown(prompt)
         st.session_state["messages"].append({"role": "user", "content": prompt})
 
-        # Antwort generieren
         with st.chat_message("assistant"):
             with st.spinner("Prüfe Berechtigungen und durchsuche Dokumente..."):
-                # Aufruf der Pipeline
                 result = pipeline.ask(user_role=st.session_state["role"], query=prompt)
                 
                 response_text = result["answer"]
                 
-                # Debug-Text zusammenbauen (für die UI-Anzeige)
                 debug_text = f"Gefundene Dokumente: {len(result['allowed_docs']) + result['blocked_count']}\n"
                 debug_text += f"Davon ERLAUBT: {len(result['allowed_docs'])}\n"
                 debug_text += f"Davon BLOCKIERT: {result['blocked_count']} (Sicherheitsfilter aktiv)"
@@ -105,7 +128,6 @@ else:
                 with st.expander("Details zur Verarbeitung anzeigen"):
                     st.text(debug_text)
 
-        # Antwort im Verlauf speichern
         st.session_state["messages"].append({
             "role": "assistant", 
             "content": response_text,
