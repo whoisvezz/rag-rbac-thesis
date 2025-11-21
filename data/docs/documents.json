@@ -1,7 +1,7 @@
 [
   {
     "id": "doc_01",
-    "content": "Urlaubsregelung: Jeder Mitarbeiter hat Anspruch auf 30 Tage Urlaub pro Jahr. Der Urlaubsantrag muss mindestens 2 Wochen im Voraus im HR-Portal eingereicht werden. Resturlaub kann bis zum 31.03. des Folgejahres genommen werden.",
+    "content": "Urlaubsregelung: Jeder Mitarbeiter der FutureTech Solutions GmbH hat Anspruch auf 30 Tage Urlaub pro Jahr. Der Urlaubsantrag muss mindestens 2 Wochen im Voraus im HR-Portal eingereicht werden. Resturlaub kann bis zum 31.03. des Folgejahres genommen werden.",
     "metadata": {
       "source": "Mitarbeiterhandbuch",
       "classification": "public"
@@ -33,7 +33,7 @@
   },
   {
     "id": "doc_05",
-    "content": "Kantinenspeiseplan & Gesundheitstage: Ab sofort bieten wir jeden Dienstag einen 'Veggie-Day' in der Kantine an. Zudem findet am 15.11. der Gesundheitstag mit kostenlosen Rückenkursen in Halle 3 statt. Anmeldung über das Intranet.",
+    "content": "Kantinenspeiseplan & Gesundheitstage: Ab sofort bieten wir jeden Dienstag einen 'Veggie-Day' in der Kantine am Hauptstandort Berlin an. Zudem findet am 15.11. der Gesundheitstag mit kostenlosen Rückenkursen in Halle 3 statt.",
     "metadata": {
       "source": "Facility Management",
       "classification": "public"
@@ -65,7 +65,7 @@
   },
   {
     "id": "doc_09",
-    "content": "Nachhaltigkeitsbericht: Unser Unternehmen hat den CO2-Ausstoß im Vergleich zum Vorjahr um 12% gesenkt. Ziel ist die Klimaneutralität bis 2030. Wir fördern zudem Job-Räder und die Nutzung von ÖPNV-Tickets.",
+    "content": "Nachhaltigkeitsbericht: FutureTech Solutions hat den CO2-Ausstoß im Vergleich zum Vorjahr um 12% gesenkt. Ziel ist die Klimaneutralität bis 2030. Wir fördern zudem Job-Räder und die Nutzung von ÖPNV-Tickets an allen Standorten.",
     "metadata": {
       "source": "Marketing / PR",
       "classification": "public"
@@ -92,6 +92,70 @@
     "content": "Betriebsvereinbarung Home-Office: Mitarbeiter können bis zu 60% ihrer Arbeitszeit mobil arbeiten. Die Erreichbarkeit zwischen 09:00 und 15:00 Uhr muss gewährleistet sein. Ausstattung (Monitor, Dockingstation) wird einmalig gestellt.",
     "metadata": {
       "source": "Betriebsrat",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_13",
+    "content": "Unternehmensprofil: Die FutureTech Solutions GmbH wurde 2010 gegründet und ist ein führender Anbieter von KI-gestützter Logistik-Software. Unser Hauptsitz befindet sich in Berlin (Alexanderplatz).",
+    "metadata": {
+      "source": "Corporate Comms",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_14",
+    "content": "Standorte & Mitarbeiterzahlen: Wir beschäftigen aktuell 1.250 Mitarbeiter weltweit. Unsere Standorte sind Berlin (HQ), München, Augsburg, London und Austin (USA).",
+    "metadata": {
+      "source": "HR Public",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_15",
+    "content": "Finanzkennzahlen (Öffentlich): Im letzten Geschäftsjahr erwirtschaftete FutureTech Solutions einen Umsatz von 180 Millionen Euro bei einem Gewinn (EBITDA) von 22 Millionen Euro. Wir wachsen jährlich um ca. 15%.",
+    "metadata": {
+      "source": "Jahresbericht 2023",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_16",
+    "content": "Unternehmenswerte: Unsere Kultur basiert auf drei Säulen: 1. Innovation (Wir lieben neue Technologien), 2. Diversität (Wir schätzen Vielfalt) und 3. Kundenfokus (Der Kunde steht im Mittelpunkt). Unser Slogan lautet: 'Code for a better tomorrow'.",
+    "metadata": {
+      "source": "Website / About Us",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_17",
+    "content": "Organigramm & Geschäftsführung: Die Geschäftsführung besteht aus Dr. Sarah Connor (CEO), Michael Schmidt (CTO) und Elena Rossi (CFO). Das Unternehmen ist in die Bereiche Engineering, Sales, Operations und HR gegliedert.",
+    "metadata": {
+      "source": "Intranet - OrgChart",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_18",
+    "content": "Technologie-Stack: Unsere Kernplattform läuft auf AWS (Amazon Web Services). Backend-Sprachen sind Python und Go, im Frontend setzen wir auf React und TypeScript. Als Datenbanken nutzen wir PostgreSQL und Redis.",
+    "metadata": {
+      "source": "Engineering Wiki",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_19",
+    "content": "Interne Personalstatistik (Q3): Die Fluktuationsrate im Sales-Team ist im letzten Quartal auf 12% gestiegen. HR plant Exit-Interviews, um die Gründe zu analysieren. Vermutung: Unzufriedenheit mit dem Provisionsmodell.",
+    "metadata": {
+      "source": "HR Reporting",
+      "classification": "confidential"
+    }
+  },
+  {
+    "id": "doc_20",
+    "content": "Produkt-Roadmap 2026: Geplant ist der Launch des Moduls 'Auto-Dispatch V2' im Januar. Zudem prüfen wir die Integration von Blockchain für Lieferkettennachweise. Budgetfreigabe steht noch aus.",
+    "metadata": {
+      "source": "Product Management",
       "classification": "internal"
     }
   }
