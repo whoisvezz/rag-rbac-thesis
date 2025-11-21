@@ -2,4 +2,5 @@
 venv/
 __pycache__/
 *.pyc
+Start-Engine.txt
 .DS_Store
