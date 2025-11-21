@@ -1,0 +1,8 @@
+openai>=1.0.0
+chromadb
+casbin
+streamlit
+python-dotenv
+pandas
+matplotlib
+pysqlite3-binary

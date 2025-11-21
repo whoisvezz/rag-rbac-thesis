@@ -1,0 +1,98 @@
+[
+  {
+    "id": "doc_01",
+    "content": "Urlaubsregelung: Jeder Mitarbeiter hat Anspruch auf 30 Tage Urlaub pro Jahr. Der Urlaubsantrag muss mindestens 2 Wochen im Voraus im HR-Portal eingereicht werden. Resturlaub kann bis zum 31.03. des Folgejahres genommen werden.",
+    "metadata": {
+      "source": "Mitarbeiterhandbuch",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_02",
+    "content": "IT-Sicherheitsrichtlinie: Passwörter müssen mindestens 12 Zeichen lang sein und alle 90 Tage geändert werden. Die Nutzung von privaten USB-Sticks an Firmenrechnern ist streng untersagt. Bei Verlust eines Laptops ist sofort der Helpdesk (Durchwahl -111) zu informieren.",
+    "metadata": {
+      "source": "IT-Security",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_03",
+    "content": "Projekt 'Omega' Statusbericht: Das Projekt liegt aktuell 2 Wochen hinter dem Zeitplan. Hauptgrund sind Lieferverzögerungen beim Zulieferer X. Das Budget wurde um 15% überschritten. Wir benötigen eine Freigabe für weitere 50.000 EUR für externe Berater.",
+    "metadata": {
+      "source": "Projektmanagement",
+      "classification": "confidential"
+    }
+  },
+  {
+    "id": "doc_04",
+    "content": "Strategische Finanzplanung 2025 (TOP SECRET): Aufgrund der Marktlage plant die Geschäftsführung eine Übernahme des Wettbewerbers 'TechNovum' im Q3 2025. Hierfür wurden Rücklagen in Höhe von 5 Mio. EUR gebildet. Die Due-Diligence-Prüfung startet nächste Woche.",
+    "metadata": {
+      "source": "Vorstandsprotokoll",
+      "classification": "secret"
+    }
+  },
+  {
+    "id": "doc_05",
+    "content": "Kantinenspeiseplan & Gesundheitstage: Ab sofort bieten wir jeden Dienstag einen 'Veggie-Day' in der Kantine an. Zudem findet am 15.11. der Gesundheitstag mit kostenlosen Rückenkursen in Halle 3 statt. Anmeldung über das Intranet.",
+    "metadata": {
+      "source": "Facility Management",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_06",
+    "content": "Reisekostenrichtlinie 2024: Bahnfahrten sind in der 2. Klasse zu buchen. Flüge sind nur erlaubt, wenn die Reisezeit per Bahn 4 Stunden überschreitet. Hotelübernachtungen dürfen 120 EUR pro Nacht (exkl. Frühstück) in Großstädten nicht überschreiten.",
+    "metadata": {
+      "source": "HR Policies",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_07",
+    "content": "Protokoll 'Effizienzprogramm' (TOP SECRET): Der Standort Augsburg (Werk C) schreibt seit drei Jahren rote Zahlen. Der Vorstand hat beschlossen, den Standort zum 31.12. dieses Jahres zu schließen. Ein Sozialplan für die 150 betroffenen Mitarbeiter wird derzeit vertraulich mit der Rechtsabteilung erarbeitet.",
+    "metadata": {
+      "source": "Vorstandssitzung 12.10.",
+      "classification": "secret"
+    }
+  },
+  {
+    "id": "doc_08",
+    "content": "Gehaltsbänder und Bonusstruktur 2025: Für das kommende Jahr ist eine Anpassung der Gehaltsbänder um 3.5% vorgesehen. Der variable Bonus für Teamleiter wird stärker an die Erreichung der Team-KPIs gekoppelt. Details sind im Ordner 'HR-Management' einsehbar.",
+    "metadata": {
+      "source": "HR Management",
+      "classification": "confidential"
+    }
+  },
+  {
+    "id": "doc_09",
+    "content": "Nachhaltigkeitsbericht: Unser Unternehmen hat den CO2-Ausstoß im Vergleich zum Vorjahr um 12% gesenkt. Ziel ist die Klimaneutralität bis 2030. Wir fördern zudem Job-Räder und die Nutzung von ÖPNV-Tickets.",
+    "metadata": {
+      "source": "Marketing / PR",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_10",
+    "content": "Einführung Software 'Workday': Zum 01.01. wird das alte Zeiterfassungssystem abgeschaltet. Alle Mitarbeiter erhalten im Dezember Schulungen zur neuen Software 'Workday'. Der Login erfolgt via Single-Sign-On (SSO).",
+    "metadata": {
+      "source": "IT Abteilung",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_11",
+    "content": "Verhandlungsprotokoll Kunde 'BlueSky': Der Kunde fordert einen Rabatt von 10% bei Vertragsverlängerung. Wir bieten maximal 5% an, wenn die Laufzeit auf 3 Jahre erhöht wird. Eine Entscheidung wird bis Freitag erwartet. Status: Kritisch.",
+    "metadata": {
+      "source": "Sales Department",
+      "classification": "confidential"
+    }
+  },
+  {
+    "id": "doc_12",
+    "content": "Betriebsvereinbarung Home-Office: Mitarbeiter können bis zu 60% ihrer Arbeitszeit mobil arbeiten. Die Erreichbarkeit zwischen 09:00 und 15:00 Uhr muss gewährleistet sein. Ausstattung (Monitor, Dockingstation) wird einmalig gestellt.",
+    "metadata": {
+      "source": "Betriebsrat",
+      "classification": "internal"
+    }
+  }
+]
