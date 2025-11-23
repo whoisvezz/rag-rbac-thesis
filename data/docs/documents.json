@@ -158,5 +158,85 @@
       "source": "Product Management",
       "classification": "internal"
     }
+  },
+  {
+    "id": "doc_21",
+    "content": "Flaggschiff-Produkt 'LogiAI Prime': Unsere Hauptsoftware 'LogiAI Prime' optimiert Lieferrouten in Echtzeit. Sie spart Speditionen durchschnittlich 20% Treibstoffkosten. Das Produkt ist als SaaS-Lösung verfügbar.",
+    "metadata": {
+      "source": "Product Catalog",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_22",
+    "content": "Beschaffungsrichtlinie (Procurement): Hardware-Bestellungen bis 500 EUR können direkt durch den Teamleiter genehmigt werden. Ab 500 EUR ist die Freigabe des Kostenstellenverantwortlichen notwendig. Apple-Geräte dürfen nur für Design- und iOS-Entwicklungs-Teams bestellt werden.",
+    "metadata": {
+      "source": "Finance Department",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_23",
+    "content": "Jährlicher Hackathon: Einmal im Jahr veranstalten wir den 'FutureHack'. Alle Mitarbeiter können 2 Tage lang an eigenen Ideen arbeiten. Das Gewinnerteam erhält ein Budget zur Realisierung des Prototypen. Nächster Termin: 20. September.",
+    "metadata": {
+      "source": "Internal Comms",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_24",
+    "content": "Lost-Deal Analyse 'LogisticsKing': Wir haben die Ausschreibung bei 'LogisticsKing' verloren, weil unser Preismodell zu unflexibel war und eine API-Schnittstelle zu SAP S/4HANA fehlte. Diese Schnittstelle muss priorisiert in die Roadmap aufgenommen werden.",
+    "metadata": {
+      "source": "Sales Reporting",
+      "classification": "confidential"
+    }
+  },
+  {
+    "id": "doc_25",
+    "content": "Datenschutz & DSGVO: Wir nehmen Datenschutz ernst. Alle Kundendaten werden ausschließlich auf Servern in Frankfurt (Deutschland) gehostet. Jeder Mitarbeiter muss einmal jährlich das Datenschutz-Training absolvieren.",
+    "metadata": {
+      "source": "Compliance Office",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_26",
+    "content": "Mitarbeiter-werben-Mitarbeiter Programm: Für die erfolgreiche Vermittlung eines neuen Entwicklers zahlen wir eine Prämie von 2.000 EUR brutto. Die Auszahlung erfolgt nach bestandener Probezeit des neuen Mitarbeiters.",
+    "metadata": {
+      "source": "HR Internal",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_27",
+    "content": "Support-Level (SLA): Standard-Kunden erhalten Support per E-Mail mit einer Reaktionszeit von 24 Stunden. 'Enterprise'-Kunden haben Anspruch auf 24/7 Telefon-Support und eine Reaktionszeit von 2 Stunden bei kritischen Fehlern.",
+    "metadata": {
+      "source": "Customer Support",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_28",
+    "content": "Weiterbildungsbudget: Jedem Mitarbeiter steht ein jährliches Budget von 1.000 EUR für Konferenzen, Online-Kurse oder Bücher zur Verfügung. Die Genehmigung erfolgt formlos über den Vorgesetzten.",
+    "metadata": {
+      "source": "HR L&D",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_29",
+    "content": "Kooperation TU München: Wir arbeiten eng mit der TU München im Bereich 'Maschinelles Lernen' zusammen. Wir bieten pro Semester 5 Praktikumsplätze für Masterstudenten an.",
+    "metadata": {
+      "source": "University Relations",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_30",
+    "content": "Executive Offsite Protokoll: Das Management hat sich auf eine Strategie der 'Operativen Exzellenz' geeinigt. Ziel ist es, die internen Verwaltungskosten um 10% zu senken. Es wird geprüft, welche internen Tools konsolidiert werden können.",
+    "metadata": {
+      "source": "Management Board",
+      "classification": "confidential"
+    }
   }
 ]
