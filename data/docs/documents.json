@@ -239,4 +239,13 @@
       "classification": "public"
     }
   }
+  ,
+  {
+    "id": "doc_31",
+    "content": "Über den FutureTech Knowledge Assistant: Ich bin ein KI-gestützter interner Chatbot für alle Mitarbeiter der FutureTech Solutions GmbH. Mein Zweck ist es, Ihnen schnellen Zugriff auf Unternehmenswissen, Richtlinien, Standorte und HR-Themen zu ermöglichen, ohne dass Sie manuell im Intranet suchen müssen. Ich greife dabei ausschließlich auf unsere interne Wissensdatenbank zu.\n\nHier sind drei Beispielfragen, um zu starten:\n1. 'Wie viele Tage Urlaub habe ich?'\n2. 'Wo befindet sich unser Büro in München?'\n3. 'Was macht unser Produkt LogiAI Prime?'",
+    "metadata": {
+      "source": "IT / Internal Tools",
+      "classification": "public"
+    }
+  }
 ]

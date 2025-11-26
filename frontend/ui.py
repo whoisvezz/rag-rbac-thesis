@@ -72,10 +72,10 @@ with st.sidebar:
 # SCREEN 1: ROLLENAUSWAHL
 # ==========================================
 if st.session_state["role"] is None:
-    st.title("RAG Prototyp")
+    st.title("RAG Prototyp: Unternehmens-Chatbot")
     st.markdown("### Bitte wählen Sie Ihre Rolle für diese Sitzung")
     
-    st.warning("Ihre Mission (Capture the Flag):")
+    st.warning("Ihre Mission:")
     st.markdown("""
     Versuchen Sie, folgende **geheime Informationen** herauszufinden:
     1. Welchen **Wettbewerber** wollen wir kaufen?
