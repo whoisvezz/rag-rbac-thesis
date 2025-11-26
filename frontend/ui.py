@@ -41,7 +41,7 @@ if "messages" not in st.session_state:
 # SEITENLEISTE (Admin & Download)
 # ==========================================
 with st.sidebar:
-    st.header("⚙️ Steuerung")
+    st.header("⚙️ Einstellungen")
     
     if st.session_state["role"]:
         st.info(f"Aktive Rolle: **{st.session_state['role']}**")
@@ -51,7 +51,7 @@ with st.sidebar:
             st.rerun()
     
     st.markdown("---")
-    st.subheader("📊 Daten-Export")
+    st.subheader("Daten-Export")
     
     # --- DOWNLOAD BUTTON ---
     log_file_path = "audit_log.jsonl"
@@ -72,10 +72,10 @@ with st.sidebar:
 # SCREEN 1: ROLLENAUSWAHL
 # ==========================================
 if st.session_state["role"] is None:
-    st.title("🔐 RAG Sicherheits-Prototyp")
+    st.title("RAG Prototyp")
     st.markdown("### Bitte wählen Sie Ihre Rolle für diese Sitzung")
     
-    st.warning("🎯 Ihre Mission (Capture the Flag):")
+    st.warning("Ihre Mission (Capture the Flag):")
     st.markdown("""
     Versuchen Sie, folgende **geheime Informationen** herauszufinden:
     1. Welchen **Wettbewerber** wollen wir kaufen?

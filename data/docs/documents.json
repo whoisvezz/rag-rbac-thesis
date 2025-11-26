@@ -1,143 +1,143 @@
 [
   {
     "id": "doc_01",
-    "content": "Urlaubsregelung: Jeder Mitarbeiter der FutureTech Solutions GmbH hat Anspruch auf 30 Tage Urlaub pro Jahr. Der Urlaubsantrag muss mindestens 2 Wochen im Voraus im HR-Portal eingereicht werden. Resturlaub kann bis zum 31.03. des Folgejahres genommen werden.",
+    "content": "Urlaubsregelung und Abwesenheiten: Jeder Vollzeitmitarbeiter der FutureTech Solutions GmbH hat Anspruch auf 30 Arbeitstage Erholungsurlaub pro Kalenderjahr. Der Urlaubsantrag ist digital über das HR-Portal 'PeopleSoft' einzureichen und muss spätestens 2 Wochen vor Antritt vom direkten Vorgesetzten genehmigt werden. Resturlaubstage können bis zum 31.03. des Folgejahres übertragen werden, verfallen danach jedoch unwiderruflich. Sonderurlaub gibt es für Eheschließung (1 Tag) und Umzug (1 Tag).",
     "metadata": {
-      "source": "Mitarbeiterhandbuch",
+      "source": "Mitarbeiterhandbuch Kap. 4",
       "classification": "public"
     }
   },
   {
     "id": "doc_02",
-    "content": "IT-Sicherheitsrichtlinie: Passwörter müssen mindestens 12 Zeichen lang sein und alle 90 Tage geändert werden. Die Nutzung von privaten USB-Sticks an Firmenrechnern ist streng untersagt. Bei Verlust eines Laptops ist sofort der Helpdesk (Durchwahl -111) zu informieren.",
+    "content": "IT-Sicherheitsrichtlinie & Passwort-Policy: Zum Schutz unserer Intellectual Property müssen alle Passwörter mindestens 12 Zeichen umfassen, darunter Großbuchstaben, Sonderzeichen und Ziffern. Ein Passwortwechsel ist alle 90 Tage obligatorisch. Die Nutzung privater Speichermedien (USB-Sticks, externe Festplatten) an Firmenhardware ist strengstens untersagt und führt zu einer Abmahnung. Bei Verlust von Hardware ist unverzüglich der IT-Notfall-Support unter +49 30 1234-999 zu kontaktieren.",
     "metadata": {
-      "source": "IT-Security",
+      "source": "CISO Office",
       "classification": "internal"
     }
   },
   {
     "id": "doc_03",
-    "content": "Projekt 'Omega' Statusbericht: Das Projekt liegt aktuell 2 Wochen hinter dem Zeitplan. Hauptgrund sind Lieferverzögerungen beim Zulieferer X. Das Budget wurde um 15% überschritten. Wir benötigen eine Freigabe für weitere 50.000 EUR für externe Berater.",
+    "content": "Projektstatus 'Omega' (Interner Bericht): Das KI-Integrationsprojekt 'Omega' liegt derzeit 3 Wochen hinter dem Zeitplan. Ursächlich sind Lieferengpässe bei den GPU-Clustern des Zulieferers Nvidia. Das Projektbudget von 2,5 Mio. EUR ist bereits zu 85% ausgeschöpft. Wir benötigen dringend eine Budgeterhöhung um 150.000 EUR, um externe Consultants von Accenture zu bezahlen, die den Rückstand aufholen sollen.",
     "metadata": {
-      "source": "Projektmanagement",
+      "source": "PMO Status Report",
       "classification": "confidential"
     }
   },
   {
     "id": "doc_04",
-    "content": "Strategische Finanzplanung 2025 (TOP SECRET): Aufgrund der Marktlage plant die Geschäftsführung eine Übernahme des Wettbewerbers 'TechNovum' im Q3 2025. Hierfür wurden Rücklagen in Höhe von 5 Mio. EUR gebildet. Die Due-Diligence-Prüfung startet nächste Woche.",
+    "content": "Strategische M&A Planung 2025 (TOP SECRET): Der Vorstand hat final beschlossen, den direkten Wettbewerber 'TechNovum Systems' zu akquirieren. Die Übernahme soll im Q3 2025 vollzogen werden. TechNovum ist Marktführer im Bereich 'Robotic Process Automation' (RPA). Für die Transaktion wurden Rücklagen in Höhe von 5,2 Millionen Euro gebildet. Codename der Operation ist 'Project Blue'. Diese Information darf unter keinen Umständen vor der Pressemitteilung im Juli publik werden.",
     "metadata": {
-      "source": "Vorstandsprotokoll",
+      "source": "Vorstandsprotokoll 22.10.",
       "classification": "secret"
     }
   },
   {
     "id": "doc_05",
-    "content": "Kantinenspeiseplan & Gesundheitstage: Ab sofort bieten wir jeden Dienstag einen 'Veggie-Day' in der Kantine am Hauptstandort Berlin an. Zudem findet am 15.11. der Gesundheitstag mit kostenlosen Rückenkursen in Halle 3 statt.",
+    "content": "Unternehmensprofil & Geschichte: Die FutureTech Solutions GmbH wurde im Jahr 2010 von Dr. Sarah Connor und Michael Schmidt in einer Garage in Berlin-Kreuzberg gegründet. Was als kleines Start-up für Logistik-Algorithmen begann, ist heute ein globaler Player. Unser Fokus liegt auf KI-gestützter Supply-Chain-Optimierung. Unser Leitbild lautet 'Efficiency through Intelligence'. Wir sind stolz auf unsere flachen Hierarchien und unsere Start-up-Mentalität.",
+    "metadata": {
+      "source": "Corporate Communications",
+      "classification": "public"
+    }
+  },
+  {
+    "id": "doc_06",
+    "content": "Standort Berlin (Hauptquartier): Unser HQ befindet sich im Herzen Berlins am Alexanderplatz (Alexanderstraße 5, 10178 Berlin). Hier arbeiten ca. 450 Mitarbeiter in den Bereichen Management, Sales, Marketing und HR. Das Büro verfügt über eine Dachterrasse, eine eigene Barista-Bar und Ruheräume. Besucher müssen sich am Empfang im Erdgeschoss registrieren.",
     "metadata": {
       "source": "Facility Management",
       "classification": "public"
     }
   },
   {
-    "id": "doc_06",
-    "content": "Reisekostenrichtlinie 2024: Bahnfahrten sind in der 2. Klasse zu buchen. Flüge sind nur erlaubt, wenn die Reisezeit per Bahn 4 Stunden überschreitet. Hotelübernachtungen dürfen 120 EUR pro Nacht (exkl. Frühstück) in Großstädten nicht überschreiten.",
-    "metadata": {
-      "source": "HR Policies",
-      "classification": "internal"
-    }
-  },
-  {
     "id": "doc_07",
-    "content": "Protokoll 'Effizienzprogramm' (TOP SECRET): Der Standort Augsburg (Werk C) schreibt seit drei Jahren rote Zahlen. Der Vorstand hat beschlossen, den Standort zum 31.12. dieses Jahres zu schließen. Ein Sozialplan für die 150 betroffenen Mitarbeiter wird derzeit vertraulich mit der Rechtsabteilung erarbeitet.",
+    "content": "Restrukturierung Standort Augsburg (TOP SECRET): Aufgrund anhaltender Ineffizienz und veralteter Maschinenparks hat der Vorstand beschlossen, den Standort Augsburg (Werk C) zum 31.12. diesen Jahres endgültig zu schließen. Die Produktion wird nach Polen verlagert. Dies betrifft alle 150 Mitarbeiter vor Ort. Ein Sozialplan wird vertraulich vorbereitet. Offizielle Kommunikation an die Belegschaft erfolgt erst am 15. November.",
     "metadata": {
-      "source": "Vorstandssitzung 12.10.",
+      "source": "Beschlussvorlage Vorstand",
       "classification": "secret"
     }
   },
   {
     "id": "doc_08",
-    "content": "Gehaltsbänder und Bonusstruktur 2025: Für das kommende Jahr ist eine Anpassung der Gehaltsbänder um 3.5% vorgesehen. Der variable Bonus für Teamleiter wird stärker an die Erreichung der Team-KPIs gekoppelt. Details sind im Ordner 'HR-Management' einsehbar.",
+    "content": "Gehaltsliste Team 'Data Science' (Stand Q4): \n- Dr. Thomas Müller (Lead Data Scientist): 95.000 EUR + 10k Bonus\n- Julia Weber (Senior Data Scientist): 82.000 EUR + 5k Bonus\n- Kevin Klein (Junior Data Scientist): 55.000 EUR\n- Lisa Chang (Data Engineer): 78.000 EUR\nAnmerkung: Kevin Klein hat um eine Gehaltsanpassung auf 60k gebeten. Entscheidung steht aus.",
     "metadata": {
-      "source": "HR Management",
+      "source": "HR Compensation",
       "classification": "confidential"
     }
   },
   {
     "id": "doc_09",
-    "content": "Nachhaltigkeitsbericht: FutureTech Solutions hat den CO2-Ausstoß im Vergleich zum Vorjahr um 12% gesenkt. Ziel ist die Klimaneutralität bis 2030. Wir fördern zudem Job-Räder und die Nutzung von ÖPNV-Tickets an allen Standorten.",
+    "content": "Standort München (R&D Hub): Unser Forschungszentrum liegt in München-Schwabing (Leopoldstraße 20). Hier arbeiten 200 Entwickler und Data Scientists an unseren KI-Modellen. Der Standort kooperiert eng mit der TU München. Besonderheit: Im Gebäude befindet sich unser Hochleistungs-Rechenzentrum 'Brain'.",
     "metadata": {
-      "source": "Marketing / PR",
+      "source": "R&D Department",
       "classification": "public"
     }
   },
   {
     "id": "doc_10",
-    "content": "Einführung Software 'Workday': Zum 01.01. wird das alte Zeiterfassungssystem abgeschaltet. Alle Mitarbeiter erhalten im Dezember Schulungen zur neuen Software 'Workday'. Der Login erfolgt via Single-Sign-On (SSO).",
+    "content": "Standort Augsburg (Operations): In Augsburg (Werk C, Industriestraße 8) befindet sich unser operatives Zentrum für Hardware-Tests. Hier werden die Sensoren für unsere Logistik-Boxen assembliert und geprüft. Aktuell sind dort 150 Mitarbeiter, vorwiegend in der Fertigung und Qualitätssicherung, beschäftigt.",
     "metadata": {
-      "source": "IT Abteilung",
-      "classification": "internal"
+      "source": "Operations Overview",
+      "classification": "public"
     }
   },
   {
     "id": "doc_11",
-    "content": "Verhandlungsprotokoll Kunde 'BlueSky': Der Kunde fordert einen Rabatt von 10% bei Vertragsverlängerung. Wir bieten maximal 5% an, wenn die Laufzeit auf 3 Jahre erhöht wird. Eine Entscheidung wird bis Freitag erwartet. Status: Kritisch.",
+    "content": "Mitarbeiterliste Team 'Sales Enterprise' & Quoten:\n- Markus Wolf (Head of Sales): Zielerreichung 120%, Provision: 40k\n- Sabine Kurz (Key Account Manager): Zielerreichung 85%, Provision: 12k. Performance-Gespräch notwendig.\n- Tim Berg (Sales Rep): Zielerreichung 98%, Provision: 15k.\nGesamtumsatz Team Sales Enterprise YTD: 14,5 Mio. EUR.",
     "metadata": {
-      "source": "Sales Department",
+      "source": "Sales Controlling",
       "classification": "confidential"
     }
   },
   {
     "id": "doc_12",
-    "content": "Betriebsvereinbarung Home-Office: Mitarbeiter können bis zu 60% ihrer Arbeitszeit mobil arbeiten. Die Erreichbarkeit zwischen 09:00 und 15:00 Uhr muss gewährleistet sein. Ausstattung (Monitor, Dockingstation) wird einmalig gestellt.",
+    "content": "Standort London (UK Sales Office): Unser Büro in London (Canary Wharf) steuert den Vertrieb für Großbritannien und Irland. Aufgrund des Brexits gelten hier gesonderte Reisekostenregelungen. Das Team besteht aus 25 Vertriebsmitarbeitern unter der Leitung von John Smith.",
     "metadata": {
-      "source": "Betriebsrat",
-      "classification": "internal"
+      "source": "International Operations",
+      "classification": "public"
     }
   },
   {
     "id": "doc_13",
-    "content": "Unternehmensprofil: Die FutureTech Solutions GmbH wurde 2010 gegründet und ist ein führender Anbieter von KI-gestützter Logistik-Software. Unser Hauptsitz befindet sich in Berlin (Alexanderplatz).",
+    "content": "Standort Austin (US Tech Hub): In Austin, Texas, haben wir 2022 unseren ersten US-Standort eröffnet. Dort liegt der Fokus auf der Entwicklung unserer Cloud-Infrastruktur. Das Büro wächst schnell und sucht aktuell noch 50 neue Cloud-Architects.",
     "metadata": {
-      "source": "Corporate Comms",
+      "source": "International Operations",
       "classification": "public"
     }
   },
   {
     "id": "doc_14",
-    "content": "Standorte & Mitarbeiterzahlen: Wir beschäftigen aktuell 1.250 Mitarbeiter weltweit. Unsere Standorte sind Berlin (HQ), München, Augsburg, London und Austin (USA).",
+    "content": "Produktportfolio 'LogiAI': \n1. LogiAI Prime: Unsere Hauptsoftware zur Routenoptimierung. Spart durchschnittlich 20% Spritkosten.\n2. WarehouseFlow: KI-Lösung für automatisierte Lagerhaltung und Robotersteuerung.\n3. PredictShip: Ein Tool zur Vorhersage von Lieferengpässen basierend auf Wetter- und Verkehrsdaten.",
     "metadata": {
-      "source": "HR Public",
+      "source": "Product Catalog",
       "classification": "public"
     }
   },
   {
     "id": "doc_15",
-    "content": "Finanzkennzahlen (Öffentlich): Im letzten Geschäftsjahr erwirtschaftete FutureTech Solutions einen Umsatz von 180 Millionen Euro bei einem Gewinn (EBITDA) von 22 Millionen Euro. Wir wachsen jährlich um ca. 15%.",
+    "content": "Finanzkennzahlen 2023 (Öffentlich): FutureTech Solutions konnte den Jahresumsatz auf 180 Millionen Euro steigern (+15% YoY). Das EBITDA lag bei 22 Millionen Euro. Wir sind profitabel und finanzieren unser Wachstum aus dem Cashflow. Investoren sind unter anderem 'GreenTech Ventures' und 'Global Capital'.",
     "metadata": {
-      "source": "Jahresbericht 2023",
+      "source": "Annual Report 2023",
       "classification": "public"
     }
   },
   {
     "id": "doc_16",
-    "content": "Unternehmenswerte: Unsere Kultur basiert auf drei Säulen: 1. Innovation (Wir lieben neue Technologien), 2. Diversität (Wir schätzen Vielfalt) und 3. Kundenfokus (Der Kunde steht im Mittelpunkt). Unser Slogan lautet: 'Code for a better tomorrow'.",
+    "content": "Führungskräfte-Feedback (360 Grad) - Sabine Kurz: Sabine ist fachlich exzellent, wird aber vom Team als teilweise zu dominant wahrgenommen. Sie erreicht ihre Umsatzziele nicht konstant. Empfehlung: Coaching im Bereich 'Consultative Selling' und Soft-Skills-Training.",
     "metadata": {
-      "source": "Website / About Us",
-      "classification": "public"
+      "source": "HR Development",
+      "classification": "confidential"
     }
   },
   {
     "id": "doc_17",
-    "content": "Organigramm & Geschäftsführung: Die Geschäftsführung besteht aus Dr. Sarah Connor (CEO), Michael Schmidt (CTO) und Elena Rossi (CFO). Das Unternehmen ist in die Bereiche Engineering, Sales, Operations und HR gegliedert.",
+    "content": "Geschäftsführung: \n- CEO: Dr. Sarah Connor (Gründerin, Strategie)\n- CTO: Michael Schmidt (Gründer, Technologie)\n- CFO: Elena Rossi (Finanzen)\n- COO: David Chen (Operations)\nDie Geschäftsführung sitzt in Berlin, besucht aber quartalsweise alle Standorte.",
     "metadata": {
-      "source": "Intranet - OrgChart",
+      "source": "Org Chart",
       "classification": "internal"
     }
   },
   {
     "id": "doc_18",
-    "content": "Technologie-Stack: Unsere Kernplattform läuft auf AWS (Amazon Web Services). Backend-Sprachen sind Python und Go, im Frontend setzen wir auf React und TypeScript. Als Datenbanken nutzen wir PostgreSQL und Redis.",
+    "content": "Technologie-Stack & Tools: Wir setzen auf eine Microservices-Architektur in der AWS Cloud. Backend: Python (FastAPI, Django) und Go. Frontend: React und TypeScript. Für CI/CD nutzen wir GitLab. Als Kommunikationstool dient Slack, für Videokonferenzen nutzen wir Zoom.",
     "metadata": {
       "source": "Engineering Wiki",
       "classification": "internal"
@@ -145,98 +145,98 @@
   },
   {
     "id": "doc_19",
-    "content": "Interne Personalstatistik (Q3): Die Fluktuationsrate im Sales-Team ist im letzten Quartal auf 12% gestiegen. HR plant Exit-Interviews, um die Gründe zu analysieren. Vermutung: Unzufriedenheit mit dem Provisionsmodell.",
+    "content": "Budgetplanung Marketing 2025: Das Marketingbudget wird auf 2,5 Mio. EUR erhöht. Fokus liegt auf der Messe 'LogiMat' (500k) und digitalem Performance-Marketing (Google Ads, LinkedIn). Das Budget für Print-Werbung wird um 80% gekürzt.",
     "metadata": {
-      "source": "HR Reporting",
+      "source": "Marketing Plan",
       "classification": "confidential"
     }
   },
   {
     "id": "doc_20",
-    "content": "Produkt-Roadmap 2026: Geplant ist der Launch des Moduls 'Auto-Dispatch V2' im Januar. Zudem prüfen wir die Integration von Blockchain für Lieferkettennachweise. Budgetfreigabe steht noch aus.",
+    "content": "Reisekostenrichtlinie Detail: Bahnfahrten 1. Klasse sind erst ab Abteilungsleiter-Ebene genehmigungsfähig. Flüge innerhalb Deutschlands sind untersagt (Ausnahme: Streiks). Hotelkosten-Obergrenze: 120 EUR (Provinz), 150 EUR (Großstädte wie München/London), 200 EUR (New York/San Francisco). Spesen werden pauschal abgerechnet.",
     "metadata": {
-      "source": "Product Management",
+      "source": "Travel Policy",
       "classification": "internal"
     }
   },
   {
     "id": "doc_21",
-    "content": "Flaggschiff-Produkt 'LogiAI Prime': Unsere Hauptsoftware 'LogiAI Prime' optimiert Lieferrouten in Echtzeit. Sie spart Speditionen durchschnittlich 20% Treibstoffkosten. Das Produkt ist als SaaS-Lösung verfügbar.",
+    "content": "Kundenliste & Status:\n- Deutsche Bahn AG (Status: Grün, Vertrag bis 2026)\n- DHL (Status: Gelb, Preisverhandlungen laufen)\n- Amazon (Status: Rot, Gefahr der Abwanderung wegen API-Problemen)\n- Zalando (Status: Grün, Pilotprojekt WarehouseFlow gestartet)",
     "metadata": {
-      "source": "Product Catalog",
-      "classification": "public"
-    }
-  },
-  {
-    "id": "doc_22",
-    "content": "Beschaffungsrichtlinie (Procurement): Hardware-Bestellungen bis 500 EUR können direkt durch den Teamleiter genehmigt werden. Ab 500 EUR ist die Freigabe des Kostenstellenverantwortlichen notwendig. Apple-Geräte dürfen nur für Design- und iOS-Entwicklungs-Teams bestellt werden.",
-    "metadata": {
-      "source": "Finance Department",
-      "classification": "internal"
-    }
-  },
-  {
-    "id": "doc_23",
-    "content": "Jährlicher Hackathon: Einmal im Jahr veranstalten wir den 'FutureHack'. Alle Mitarbeiter können 2 Tage lang an eigenen Ideen arbeiten. Das Gewinnerteam erhält ein Budget zur Realisierung des Prototypen. Nächster Termin: 20. September.",
-    "metadata": {
-      "source": "Internal Comms",
-      "classification": "public"
-    }
-  },
-  {
-    "id": "doc_24",
-    "content": "Lost-Deal Analyse 'LogisticsKing': Wir haben die Ausschreibung bei 'LogisticsKing' verloren, weil unser Preismodell zu unflexibel war und eine API-Schnittstelle zu SAP S/4HANA fehlte. Diese Schnittstelle muss priorisiert in die Roadmap aufgenommen werden.",
-    "metadata": {
-      "source": "Sales Reporting",
+      "source": "Sales CRM",
       "classification": "confidential"
     }
   },
   {
-    "id": "doc_25",
-    "content": "Datenschutz & DSGVO: Wir nehmen Datenschutz ernst. Alle Kundendaten werden ausschließlich auf Servern in Frankfurt (Deutschland) gehostet. Jeder Mitarbeiter muss einmal jährlich das Datenschutz-Training absolvieren.",
+    "id": "doc_22",
+    "content": "Nachhaltigkeitsziele (ESG): Wir wollen bis 2030 komplett CO2-neutral sein. Dazu stellen wir den Fuhrpark auf E-Autos um und installieren Solaranlagen auf dem Dach des Werks in Augsburg (Anmerkung: Projekt pausiert aufgrund unsicherer Zukunft des Standorts).",
     "metadata": {
-      "source": "Compliance Office",
+      "source": "Sustainability Report",
       "classification": "public"
     }
   },
   {
-    "id": "doc_26",
-    "content": "Mitarbeiter-werben-Mitarbeiter Programm: Für die erfolgreiche Vermittlung eines neuen Entwicklers zahlen wir eine Prämie von 2.000 EUR brutto. Die Auszahlung erfolgt nach bestandener Probezeit des neuen Mitarbeiters.",
+    "id": "doc_23",
+    "content": "Onboarding Prozess: Am ersten Tag erhalten neue Mitarbeiter ihren Laptop und Badge am Empfang. Um 10:00 Uhr findet das 'Welcome Breakfast' mit HR statt. In der ersten Woche ist das E-Learning Modul 'Data Privacy' und 'Code of Conduct' verpflichtend zu absolvieren.",
     "metadata": {
-      "source": "HR Internal",
+      "source": "HR Onboarding",
       "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_24",
+    "content": "Home-Office Vereinbarung: Es gilt eine 60/40 Regelung. 60% Mobile Arbeit, 40% Büroanwesenheit. Die 'Team-Tage' (meist Dienstag oder Mittwoch) sind präsenzpflichtig. Ausstattung für das Home-Office (Monitor, Stuhl) wird einmalig mit bis zu 800 EUR bezuschusst.",
+    "metadata": {
+      "source": "Betriebsvereinbarung",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_25",
+    "content": "Interne IT-Probleme Bericht: Der VPN-Zugang über Cisco AnyConnect ist aktuell instabil. Betroffen sind vor allem Mitarbeiter mit macOS Sonoma. Der Workaround ist die Nutzung des Web-Portals. Ein Patch wird für kommenden Montag erwartet.",
+    "metadata": {
+      "source": "IT Service Desk",
+      "classification": "internal"
+    }
+  },
+  {
+    "id": "doc_26",
+    "content": "Jahresfeier & Events: Die diesjährige Weihnachtsfeier findet am 18.12. im 'Kraftwerk Berlin' statt. Motto: 'Future Neon Night'. Es gibt ein Buffet, offene Bar und einen DJ. Anmeldung erforderlich bis 01.12. Partner sind dieses Jahr nicht eingeladen.",
+    "metadata": {
+      "source": "Internal Events",
+      "classification": "public"
     }
   },
   {
     "id": "doc_27",
-    "content": "Support-Level (SLA): Standard-Kunden erhalten Support per E-Mail mit einer Reaktionszeit von 24 Stunden. 'Enterprise'-Kunden haben Anspruch auf 24/7 Telefon-Support und eine Reaktionszeit von 2 Stunden bei kritischen Fehlern.",
+    "content": "Benefits & Perks: Wir bieten eine 'Urban Sports Club' Mitgliedschaft (M-Paket) für 20 EUR Zuzahlung. Kaffee, Obst und Softdrinks sind in allen Büros kostenlos. Zudem gibt es ein JobRad-Leasing-Angebot.",
     "metadata": {
-      "source": "Customer Support",
-      "classification": "internal"
+      "source": "HR Benefits",
+      "classification": "public"
     }
   },
   {
     "id": "doc_28",
-    "content": "Weiterbildungsbudget: Jedem Mitarbeiter steht ein jährliches Budget von 1.000 EUR für Konferenzen, Online-Kurse oder Bücher zur Verfügung. Die Genehmigung erfolgt formlos über den Vorgesetzten.",
+    "content": "Beförderungsrichtlinien: Eine Beförderung zum 'Senior' erfordert mindestens 3 Jahre Erfahrung und konstante Performance über Erwartungswert. Eine Beförderung zum 'Lead' erfordert zusätzlich Führungserfahrung und ein erfolgreiches Assessment-Center.",
     "metadata": {
-      "source": "HR L&D",
+      "source": "HR Development",
       "classification": "internal"
     }
   },
   {
     "id": "doc_29",
-    "content": "Kooperation TU München: Wir arbeiten eng mit der TU München im Bereich 'Maschinelles Lernen' zusammen. Wir bieten pro Semester 5 Praktikumsplätze für Masterstudenten an.",
+    "content": "Beschwerde Betriebsrat: Es häufen sich Beschwerden über die Erreichbarkeit nach Feierabend im Team 'Marketing'. Der Betriebsrat weist auf das Recht auf Nichterreichbarkeit hin. Führungskräfte sind angehalten, keine E-Mails nach 18:00 Uhr zu versenden.",
     "metadata": {
-      "source": "University Relations",
-      "classification": "public"
+      "source": "Betriebsrat Protokoll",
+      "classification": "confidential"
     }
   },
   {
     "id": "doc_30",
-    "content": "Executive Offsite Protokoll: Das Management hat sich auf eine Strategie der 'Operativen Exzellenz' geeinigt. Ziel ist es, die internen Verwaltungskosten um 10% zu senken. Es wird geprüft, welche internen Tools konsolidiert werden können.",
+    "content": "Innovations-Wettbewerb: Mitarbeiter können Ideen für neue Produkte einreichen. Der Gewinner erhält 5.000 EUR und ein Budget, um einen Prototypen zu bauen. Letztes Jahr gewann das Projekt 'GreenRoute' zur CO2-armen Routenplanung.",
     "metadata": {
-      "source": "Management Board",
-      "classification": "confidential"
+      "source": "Innovation Lab",
+      "classification": "public"
     }
   }
 ]
