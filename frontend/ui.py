@@ -82,7 +82,7 @@ with st.sidebar:
             file_content = f.read()
         
         st.download_button(
-            label="📥 Audit-Log exportieren (.jsonl)",
+            label="📥 Audit-Log exportieren",
             data=file_content,
             file_name="audit_log.jsonl",
             mime="application/json",
@@ -134,7 +134,7 @@ else:
             st.markdown(msg["content"])
             # Falls technische Metadaten vorhanden sind, diese in einem Expander anzeigen
             if "debug_info" in msg:
-                with st.expander("System-Interna (Traceability)"):
+                with st.expander("System-Interna"):
                     st.text(msg["debug_info"])
 
     # 2. Neue Eingabe verarbeiten
@@ -171,7 +171,7 @@ else:
 
                     st.markdown(response_text)
                     
-                    with st.expander("System-Interna (Traceability)"):
+                    with st.expander("System-Interna"):
                         st.text(debug_info)
                         if blocked > 0:
                             st.warning(f"Hinweis: {blocked} Dokumente wurden aufgrund fehlender Berechtigungen ausgeblendet.")
