@@ -28,10 +28,6 @@ env/
 __pycache__/
 *.pyc
 
-# --- DATEN & ARTEFAKTE ---
-# ChromaDB Datenbank
-data/chromadb/
-
 # Evaluations-Ergebnisse
 evaluation_results/
 

@@ -8,8 +8,6 @@ import dotenv
 dotenv.load_dotenv()
 
 # Definition des Pfades zur Log-Datei. Standardwert ist 'audit_log.jsonl'.
-# Die Verwendung von Umgebungsvariablen ermöglicht eine flexible Konfiguration
-# ohne Änderung des Quellcodes.
 LOG_FILE = os.getenv("LOG_FILE", "audit_log.jsonl")
 
 def log_request(
@@ -22,10 +20,6 @@ def log_request(
 ) -> None:
     """
     Dokumentiert eine Benutzerinteraktion im Audit-Log für spätere Analysen.
-
-    Diese Funktion erstellt einen strukturierten Datensatz (JSON), der sowohl
-    Metadaten zur Anfrage (Rolle, Zeitstempel) als auch quantitative Metriken
-    zur Systemleistung (Latenz, Filterwirkung) enthält.
 
     Args:
         user_role (str): Die Rolle des Benutzers (z. B. 'Mitarbeiter', 'Geschäftsführung').
@@ -51,7 +45,6 @@ def log_request(
         "timestamp": datetime.now().isoformat(),
         "role": user_role,
         "query": query,
-        # Speicherung eines Auszugs der Antwort (Preview) zur visuellen Validierung,
         # begrenzt auf 100 Zeichen zur Reduktion der Log-Größe.
         "response_preview": response_text[:100] + "..." if response_text else "",
         "metrics": {
