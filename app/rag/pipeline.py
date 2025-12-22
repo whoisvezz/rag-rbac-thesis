@@ -147,7 +147,6 @@ class RbacRagPipeline:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": query}
             ],
-            temperature=0.3 # Geringere Kreativität für faktentreue Antworten
         )
 
         answer = chat_completion.choices[0].message.content
