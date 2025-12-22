@@ -1,8 +1,10 @@
-openai>=1.0.0
+streamlit
+openai
 chromadb
 casbin
-streamlit
 python-dotenv
 pandas
 matplotlib
+seaborn
+scipy
 pysqlite3-binary
