@@ -1,7 +1,0 @@
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python3 test_pipeline.py
-python3 build_index.py
-streamlit run frontend/ui.py
-python3 evaluate_results.py

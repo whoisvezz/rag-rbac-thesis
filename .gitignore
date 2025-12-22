@@ -1,6 +1,40 @@
+# --- SENSIBLE DATEN & LOGS ---
+# Ignoriere alle Dateien im Log-Ordner...
+raw_logs/*
+# ...aber behalte den Ordner selbst (durch die .gitkeep Ausnahme)
+!raw_logs/.gitkeep
+
+# Einzelne Log-Dateien im Hauptverzeichnis
+audit_log.jsonl
+*.jsonl
+*.log
+
+# Exportierte sensible CSV-Dateien (vom Skript export_logs_to_csv.py)
+anhang_messdaten_export.csv
+response_sensitivity_check.csv
+
+# --- KONFIGURATION ---
+# OpenAI API Keys und Umgebungsvariablen
 .env
+.env.local
+
+# --- PYTHON SYSTEMDATEIEN ---
+# Virtuelle Umgebung
+.venv/
 venv/
+env/
+
+# Bytecode (muss nicht ins Repo)
 __pycache__/
 *.pyc
-Start-Engine.txt
+
+# --- DATEN & ARTEFAKTE ---
+# ChromaDB Datenbank
+data/chromadb/
+
+# Evaluations-Ergebnisse
+evaluation_results/
+
+# MacOS Systemdateien (nervig in Repos)
 .DS_Store
+Start-Engine.txt
